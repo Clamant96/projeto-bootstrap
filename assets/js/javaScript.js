@@ -117,7 +117,8 @@ texto.addEventListener('keyup', () => {
         //texto.style.borderRadius = '3px'
 
         /* RETIRA O TEXTO PARA O USUARIO */
-        validandoTexto.style.display = 'none'
+        validandoTexto.setAttribute('style', 'display: none;')
+        //validandoTexto.style.display = 'none'
 
         /* VALIDA CAMPO */
         textoOk = true
