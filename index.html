@@ -13,6 +13,14 @@
         * {
             padding: 0;
             margin: 0;
+
+            scroll-behavior: smooth;
+            
+        }       
+
+        html, body {
+            scroll-behavior: smooth;
+
         }
     </style>
 
@@ -30,11 +38,11 @@
                 </a>
             
                 <ul class="nav nav-pills d-flex align-items-center justify-content-center">
-                    <li class="nav-item"><a href="#" class="nav-link list-group-item-action px-4 link-dark">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link list-group-item-action px-4 link-dark">About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link list-group-item-action px-4 link-dark">Services</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link list-group-item-action px-4 link-dark">Projects</a></li>
-                    <li class="nav-item ms-5"><a href="#" class="nav-link px-5 bg-success fw-bold fs-6 active">Contact</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link list-group-item-action px-4 link-dark">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link list-group-item-action px-4 link-dark">About</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link list-group-item-action px-4 link-dark">Services</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link list-group-item-action px-4 link-dark">Projects</a></li>
+                    <li class="nav-item ms-5"><a href="#contact" class="nav-link px-5 bg-success fw-bold fs-6 active">Contact</a></li>
                 </ul>
             </header>
 
@@ -46,14 +54,14 @@
                     <p class="fw-bold fs-2 text-success">+1 910-626-85255</p>
                 </div>
                 <div class="row col-md-6">
-                    <img class="bg-success px-0 rounded" src="assets/img/gardening.jpg" alt="">
+                    <img class="px-0 rounded" src="assets/img/gardening.jpg" alt="">
                 </div>
             </section>
         </div>
     </div>
 
     <!-- SECTION -->
-    <div class="container-fluid bg-light p-5">
+    <div class="container-fluid bg-light p-5" id="projects">
         <div class="container col-md-12 p-5">
             <div class="row">
                 <div class="col-md-12 p-5">
@@ -88,7 +96,7 @@
     </div>
     
     <!-- SECTION -->
-    <div class="container-fluid p-5">
+    <div class="container-fluid p-5" id="about">
         <div class="container col-md-12 p-5">
             <div class="row">
                 <div class="col-md-12 p-5">
@@ -116,7 +124,7 @@
     </div>
 
     <!-- SECTION -->
-    <div class="container-fluid p-5 bg-light">
+    <div class="container-fluid p-5 bg-light" id="services">
         <div class="container col-md-12">
             <div class="row">
                 <div class="col-md-12">
@@ -226,7 +234,7 @@
     </div>
 
     <!-- FOOTER -->
-    <footer class="container-fluid bg-dark p-3">
+    <footer class="container-fluid bg-dark p-3" id="contact">
         <div class="container d-flex align-items-center justify-content-center">
             <div class="col-md-4">
                 <p class="text-white fs-1 text-center">HelpConnect</p>
